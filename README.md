@@ -284,8 +284,4 @@ Windows 自带的「LPD 打印服务」可能占用 515。请：
 
 详细设计见 `docs/ARCHITECTURE.md`。
 
----
 
-## 许可
-
-MIT License
