@@ -1,0 +1,70 @@
+2026-09-28 22:13:28 [INFO] main: 目标打印机: RICOH MP C6004 PCL 6
+
+╔══════════════════════════════════════════════════════╗
+║           WinPrintServer v1.0.0                      ║
+║       Windows 网络打印服务器                          ║
+╠══════════════════════════════════════════════════════╣
+║  RAW  : tcp://0.0.0.0:9100
+║  LPD  : tcp://0.0.0.0:515  (可选)
+║  Web  : http://0.0.0.0:8080
+║  打印机: RICOH MP C6004 PCL 6
+╚══════════════════════════════════════════════════════╝
+
+2026-09-28 22:13:28 [INFO] raw: RAW 打印服务器已启动 tcp://0.0.0.0:9100
+2026-09-28 22:13:29 [INFO] web: Web 状态页已启动 http://0.0.0.0:8080
+2026-09-28 22:13:29 [INFO] main: 服务器启动完成，按 Ctrl+C 停止
+2026-09-28 22:13:30 [INFO] job: 新建任务 #1 客户端=127.0.0.1 协议=raw 打印机=(default) 大小=0
+2026-09-28 22:13:30 [INFO] raw: RAW 连接建立: 127.0.0.1:57200
+2026-09-28 22:13:31 [WARNING] printer: pywin32 打开打印机失败，回退 ctypes: module 'win32print' has no attribute 'JOB_CONTROL_RAW'
+2026-09-28 22:13:31 [ERROR] printer: 打印异常: function 'StartDocPrinter' not found
+2026-09-28 22:13:31 [WARNING] printer: pywin32 打开打印机失败，回退 ctypes: module 'win32print' has no attribute 'JOB_CONTROL_RAW'
+2026-09-28 22:13:31 [ERROR] printer: 打印异常: function 'StartDocPrinter' not found
+2026-09-28 22:13:32 [WARNING] printer: pywin32 打开打印机失败，回退 ctypes: module 'win32print' has no attribute 'JOB_CONTROL_RAW'
+2026-09-28 22:13:32 [ERROR] printer: 打印异常: function 'StartDocPrinter' not found
+2026-09-28 22:13:32 [WARNING] job: 任务 #1 失败: function 'StartDocPrinter' not found
+2026-09-28 22:13:32 [ERROR] raw: RAW 打印失败: function 'StartDocPrinter' not found
+2026-09-28 22:13:32 [INFO] raw: RAW 连接关闭: 127.0.0.1
+2026-09-28 22:15:59 [INFO] job: 新建任务 #2 客户端=127.0.0.1 协议=raw 打印机=(default) 大小=0
+2026-09-28 22:15:59 [INFO] raw: RAW 连接建立: 127.0.0.1:57266
+2026-09-28 22:16:00 [WARNING] printer: pywin32 打开打印机失败，回退 ctypes: module 'win32print' has no attribute 'JOB_CONTROL_RAW'
+2026-09-28 22:16:00 [ERROR] printer: 打印异常: function 'StartDocPrinter' not found
+2026-09-28 22:16:00 [WARNING] printer: pywin32 打开打印机失败，回退 ctypes: module 'win32print' has no attribute 'JOB_CONTROL_RAW'
+2026-09-28 22:16:00 [ERROR] printer: 打印异常: function 'StartDocPrinter' not found
+2026-09-28 22:16:01 [WARNING] printer: pywin32 打开打印机失败，回退 ctypes: module 'win32print' has no attribute 'JOB_CONTROL_RAW'
+2026-09-28 22:16:01 [ERROR] printer: 打印异常: function 'StartDocPrinter' not found
+2026-09-28 22:16:01 [WARNING] job: 任务 #2 失败: function 'StartDocPrinter' not found
+2026-09-28 22:16:01 [ERROR] raw: RAW 打印失败: function 'StartDocPrinter' not found
+2026-09-28 22:16:01 [INFO] raw: RAW 连接关闭: 127.0.0.1
+2026-09-28 22:17:58 [INFO] job: 新建任务 #3 客户端=127.0.0.1 协议=raw 打印机=(default) 大小=0
+2026-09-28 22:17:58 [INFO] raw: RAW 连接建立: 127.0.0.1:57316
+2026-09-28 22:17:59 [WARNING] printer: pywin32 打开打印机失败，回退 ctypes: module 'win32print' has no attribute 'JOB_CONTROL_RAW'
+2026-09-28 22:17:59 [ERROR] printer: 打印异常: function 'StartDocPrinter' not found
+2026-09-28 22:18:00 [WARNING] printer: pywin32 打开打印机失败，回退 ctypes: module 'win32print' has no attribute 'JOB_CONTROL_RAW'
+2026-09-28 22:18:00 [ERROR] printer: 打印异常: function 'StartDocPrinter' not found
+2026-09-28 22:18:00 [WARNING] printer: pywin32 打开打印机失败，回退 ctypes: module 'win32print' has no attribute 'JOB_CONTROL_RAW'
+2026-09-28 22:18:00 [ERROR] printer: 打印异常: function 'StartDocPrinter' not found
+2026-09-28 22:18:00 [WARNING] job: 任务 #3 失败: function 'StartDocPrinter' not found
+2026-09-28 22:18:00 [ERROR] raw: RAW 打印失败: function 'StartDocPrinter' not found
+2026-09-28 22:18:00 [INFO] raw: RAW 连接关闭: 127.0.0.1
+2026-09-28 22:18:59 [INFO] job: 新建任务 #4 客户端=127.0.0.1 协议=raw 打印机=(default) 大小=0
+2026-09-28 22:18:59 [INFO] raw: RAW 连接建立: 127.0.0.1:57354
+2026-09-28 22:19:00 [WARNING] printer: pywin32 打开打印机失败，回退 ctypes: module 'win32print' has no attribute 'JOB_CONTROL_RAW'
+2026-09-28 22:19:00 [ERROR] printer: 打印异常: function 'StartDocPrinter' not found
+2026-09-28 22:19:00 [WARNING] printer: pywin32 打开打印机失败，回退 ctypes: module 'win32print' has no attribute 'JOB_CONTROL_RAW'
+2026-09-28 22:19:00 [ERROR] printer: 打印异常: function 'StartDocPrinter' not found
+2026-09-28 22:19:01 [WARNING] printer: pywin32 打开打印机失败，回退 ctypes: module 'win32print' has no attribute 'JOB_CONTROL_RAW'
+2026-09-28 22:19:01 [ERROR] printer: 打印异常: function 'StartDocPrinter' not found
+2026-09-28 22:19:01 [WARNING] job: 任务 #4 失败: function 'StartDocPrinter' not found
+2026-09-28 22:19:01 [ERROR] raw: RAW 打印失败: function 'StartDocPrinter' not found
+2026-09-28 22:19:01 [INFO] raw: RAW 连接关闭: 127.0.0.1
+2026-09-28 22:20:15 [INFO] job: 新建任务 #5 客户端=127.0.0.1 协议=raw 打印机=(default) 大小=0
+2026-09-28 22:20:15 [INFO] raw: RAW 连接建立: 127.0.0.1:57406
+2026-09-28 22:20:16 [WARNING] printer: pywin32 打开打印机失败，回退 ctypes: module 'win32print' has no attribute 'JOB_CONTROL_RAW'
+2026-09-28 22:20:16 [ERROR] printer: 打印异常: function 'StartDocPrinter' not found
+2026-09-28 22:20:17 [WARNING] printer: pywin32 打开打印机失败，回退 ctypes: module 'win32print' has no attribute 'JOB_CONTROL_RAW'
+2026-09-28 22:20:17 [ERROR] printer: 打印异常: function 'StartDocPrinter' not found
+2026-09-28 22:20:17 [WARNING] printer: pywin32 打开打印机失败，回退 ctypes: module 'win32print' has no attribute 'JOB_CONTROL_RAW'
+2026-09-28 22:20:17 [ERROR] printer: 打印异常: function 'StartDocPrinter' not found
+2026-09-28 22:20:17 [WARNING] job: 任务 #5 失败: function 'StartDocPrinter' not found
+2026-09-28 22:20:17 [ERROR] raw: RAW 打印失败: function 'StartDocPrinter' not found
+2026-09-28 22:20:17 [INFO] raw: RAW 连接关闭: 127.0.0.1

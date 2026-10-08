@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+"""
+requirements.txt
+
+核心功能仅依赖 Python 标准库（ctypes 访问 Windows 打印机 API）。
+以下为可选增强依赖：
+
+pywin32          # 可选：更稳定的打印机/服务管理（推荐安装）
+# pyinstaller    # 可选：打包为单文件 exe
+"""
+# 推荐安装（非必须，但服务模式与打印机兼容性更好）
+pywin32>=227; sys_platform == 'win32'
